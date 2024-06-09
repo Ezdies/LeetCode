@@ -7,7 +7,6 @@ int minOperations(std::vector<int>& nums, int k) {
 
     int counter = 0;
     int n = 0;
-
     for(const int num : nums){
         if(num >= k){
 
